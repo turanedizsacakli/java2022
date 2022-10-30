@@ -22,7 +22,6 @@ public class ProductManager {
 
 	public void add(Product product) throws Exception {
 
-	//iş kuralları yazılıyor
 	
 	if (product.getUnitPrice()<10) {throw new Exception("ürün fiyatı 10 dan küçük olamaz...");}
 	
